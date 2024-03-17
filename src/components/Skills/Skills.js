@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+import SkillItem from '../../reusableComponents/SkillItem/SkillItem.js';
 
 const Skills = () => {
   return (
@@ -17,49 +17,10 @@ const Skills = () => {
             of Letraset sheets containing Lorem specimen Ipsum passages Letraset .
           </p>
           <div className="row mySkillsBars">
-            <div className="col-md-6 text-center">
-              <h3>Angular</h3>
-            </div>
-            <div className="col-md-6 text-center">
-              <progress
-                style={{ width: '80%', height: '30px' }}
-                max="100"
-                value="95"
-              ></progress>
-            </div>
-
-            <div className="col-md-6 text-center">
-              <h3>MongoDB</h3>
-            </div>
-            <div className="col-md-6 text-center">
-              <progress
-                style={{ width: '80%', height: '30px' }}
-                max="100"
-                value="95"
-              ></progress>
-            </div>
-
-            <div className="col-md-6 text-center">
-              <h3>Node.js</h3>
-            </div>
-            <div className="col-md-6 text-center">
-              <progress
-                style={{ width: '80%', height: '30px' }}
-                max="100"
-                value="90"
-              ></progress>
-            </div>
-
-            <div className="col-md-6 text-center">
-              <h3>Express.js</h3>
-            </div>
-            <div className="col-md-6 text-center">
-              <progress
-                style={{ width: '80%', height: '30px' }}
-                max="100"
-                value="90"
-              ></progress>
-            </div>
+            <SkillItem skillName="Angular" progress={95} />
+            <SkillItem skillName="MongoDB" progress={95} />
+            <SkillItem skillName="Node.js" progress={90} />
+            <SkillItem skillName="Express.js" progress={90} />
           </div>
         </div>
       </div>
