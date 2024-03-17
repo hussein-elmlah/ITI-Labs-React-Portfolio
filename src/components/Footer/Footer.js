@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer id="sectionFooter" className="row bg-black text-light text-center py-2 pt-3 mt-0">
+    <footer id="sectionFooter" className="row bg-black text-light text-center py-2 pt-3 m-0">
       <p className="col-2 m-0 pt-3">Made By: <span className="footerMyName">Hussein Elmlah</span></p>
       <div className="col-7"></div>
       <div className="col-3 container p-0 pb-0">
