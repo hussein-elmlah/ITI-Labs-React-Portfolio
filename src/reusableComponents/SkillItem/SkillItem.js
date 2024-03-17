@@ -1,5 +1,4 @@
 import React from "react";
-import "./SkillItem.css";
 
 const SkillItem = ({ skillName, progress }) => {
   return (
