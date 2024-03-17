@@ -21,7 +21,6 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="vh-100 bg-black "></div>
       <Header />
       <About />
       <Skills />
