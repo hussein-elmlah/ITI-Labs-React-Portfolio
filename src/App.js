@@ -16,7 +16,7 @@ import image6 from './assets/img/photos/projects/6.jpg';
 
 const App = () => {
   // Define theimagearr array
-  const theimagearr = [image1, image2, image3, image4, image5, image6];
+  const projectsImgsArr = [image1, image2, image3, image4, image5, image6];
 
   return (
     <div>
@@ -24,7 +24,7 @@ const App = () => {
       <Header />
       <About />
       <Skills />
-      <Projects theimagearr={theimagearr} />
+      <Projects projectsImgsArr={projectsImgsArr} />
       <Footer />
     </div>
   );
