@@ -11,7 +11,7 @@ const Header = () => {
     <header id="header" className="container-fluid bg-dark text-light">
       <div className="jumbotron text-center">
         <h1 className="myHeaderH1 display-5">Hussein's Portfolio </h1>
-        <p className="lead">Hello, I am <span className="lead myName">Hussein Elmlah</span> using <span className="text-danger">Angular</span></p>
+        <p className="lead">Hello, I am <span className="lead myName">Hussein Elmlah</span> using <span className="text-info">React</span></p>
         <div id="imageCarousel" className="container carousel slide mt-5" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
