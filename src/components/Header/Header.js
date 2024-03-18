@@ -16,15 +16,15 @@ const Header = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               {/* Using imported image variable */}
-              <img src={image1} className="d-block w-100" alt="Carousel Image 1" />
+              <img src={image1} className="d-block w-100" alt="Carousel Image1" />
             </div>
             <div className="carousel-item">
               {/* Using imported image variable */}
-              <img src={image2} className="d-block w-100" alt="Carousel Image 2" />
+              <img src={image2} className="d-block w-100" alt="Carousel Image2" />
             </div>
             <div className="carousel-item">
               {/* Using imported image variable */}
-              <img src={image3} className="d-block w-100" alt="Carousel Image 3" />
+              <img src={image3} className="d-block w-100" alt="Carousel Image3" />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">

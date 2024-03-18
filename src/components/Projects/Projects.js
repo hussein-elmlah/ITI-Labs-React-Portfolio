@@ -8,7 +8,7 @@ const Projects = ({ projectsImgsArr }) => {
         <h2>PORTFOLIO</h2>
         <div className="row">
           {projectsImgsArr.map((imageSrc, index) => (
-            <ProjectCard key={index} imageSrc={imageSrc} index={index} />
+            <ProjectCard key={`projectsImg-${index}`} index={index} imageSrc={imageSrc} />
           ))}
         </div>
       </div>

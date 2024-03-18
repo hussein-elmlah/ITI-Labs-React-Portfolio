@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SkillItem from '../../reusableComponents/SkillItem/SkillItem.js';
 
 const Skills = () => {
+  const [skillItems] = useState([
+    {skillName: 'Angular', progress: 95},
+    {skillName: 'MongoDB', progress: 95},
+    {skillName: 'Node.js', progress: 90},
+    {skillName: 'Express.js', progress: 90},
+  ])
   return (
     <section id="sectionSkills" className="text-white bg-dark">
       <div className="skillsdiv text-center">
@@ -17,10 +23,9 @@ const Skills = () => {
             of Letraset sheets containing Lorem specimen Ipsum passages Letraset .
           </p>
           <div className="row mySkillsBars">
-            <SkillItem skillName="Angular" progress={95} />
-            <SkillItem skillName="MongoDB" progress={95} />
-            <SkillItem skillName="Node.js" progress={90} />
-            <SkillItem skillName="Express.js" progress={90} />
+            {skillItems.map((skillItem, index) => (
+              <SkillItem key={`skillItem-${index}`} index={index} skillName={skillItem.skillName} progress={skillItem.progress} />
+            ))}
           </div>
         </div>
       </div>
