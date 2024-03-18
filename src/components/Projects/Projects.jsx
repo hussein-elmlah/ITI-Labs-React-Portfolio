@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from '../../reusableComponents/ProjectCard/ProjectCard.js';
+import ProjectCard from '../../reusableComponents/ProjectCard/ProjectCard';
 
 const Projects = ({ projectsImgsArr }) => {
   return (

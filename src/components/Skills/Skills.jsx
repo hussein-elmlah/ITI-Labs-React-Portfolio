@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SkillItem from '../../reusableComponents/SkillItem/SkillItem.js';
+import SkillItem from '../../reusableComponents/SkillItem/SkillItem';
 
 const Skills = () => {
   const [skillItems] = useState([
